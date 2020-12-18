@@ -17,6 +17,13 @@ header{
 header span{
     font-size:52px;
 }
+
+@media (max-width: 540px) {
+  header span{
+    display:none;
+  }
+}
+
 #container {
   border: 1px solid rgba(139, 97, 97, 0.15);
   border-radius:50px;
