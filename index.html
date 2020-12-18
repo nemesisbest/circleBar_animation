@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en,uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Progress-Bar Circle Animation" />
+    <meta name="description" content="Animation"/>
+    <meta name="author" content="Vlas Oleksyn"/>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<title>Circular Progress Animation</title>
+
+	<script defer src="js/jquery_v--351.js"></script>		<!--Including jQuery Library locally-->					
+    <script defer src="js/progressbar.js"></script>			<!--Adding API-->	
+	<script defer src="js/animation.js"></script>			<!--Main script that makes animation work-->	
+	
+    <noscript>
+      Your Browser Does Not Support JavaScript, Please Update Your Browser and
+      reload page.
+    </noscript>
+    
+    <link rel="icon" href="images/icon.png" type="image/x-icon" /> <!--Icon on browser tab-->
+	<link rel="shortcut icon" type="image/x-icon"/>				   <!--Downscaling icon to tab size-->
+	
+	<link rel="stylesheet" href="css/main.css" type="text/css"/>
+	
+  </head>
+
+  <body>
+	<header>Progress-Bar Circle <span>Animation</span></header>
+
+    <div id="container">
+      <div class="numbers" id="number1">01</div>
+      <div class="numbers" id="number2">02</div>
+      <div class="numbers" id="number3">03</div>
+	</div>
+
+	<div id="controls_block">
+	  <button id="stop_btn"> Stop Animation</button>
+	  <button id="restart_btn"> Reload Animation</button>
+	</div>
+
+	<footer>
+		2020 - Copyright by Nemesis <div> made with progressbar API</div>
+	</footer>
+
+  </body>
+</html>
